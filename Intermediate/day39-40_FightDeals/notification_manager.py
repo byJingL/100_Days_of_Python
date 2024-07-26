@@ -1,6 +1,7 @@
 import smtplib
+import os
 from twilio.rest import Client
-twilio_sid = "AC4c016cb3481e0c2d2cc35358abbaca1a"
+twilio_sid = os.getenv("twilio_sid")
 twilio_token = "3cddaf458005760ea2752729633a69cf"
 my_email = "jennyroh96@gmail.com"
 my_password = "hwdbghfndphdates"
